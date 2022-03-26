@@ -33,7 +33,7 @@ Alright, let’s talk about your **Custom Ranking** question.
 
 It seems like you already have a good handle on what Custom Ranking is, but to recap: Custom Ranking allows you to tweak the default search ranking to something specific to your customers’ needs. The way you do this is by choosing metrics that live inside your records which Algolia can then order the search results on.
 
-I took a quick look at your account and didn’t see any likely candidates for Custom Ranking metrics. Some common ones we see are sales, ratings, views, and so on. 
+I took a quick look at your account and didn’t see any likely candidates for Custom Ranking metrics. Some common ones we see are sales, ratings, views, and so on. Be sure to check out the [great documentation on this](https://www.algolia.com/doc/guides/managing-results/must-do/custom-ranking/) as well.
 
 I’d be happy to set you up on a call with one of our customer support reps who could talk over your business’s needs and help you discover metrics to use here, just let me know!
 
