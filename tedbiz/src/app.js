@@ -19,6 +19,9 @@ search.addWidgets([
     templates: {
       item: `
 <article class="ais-Hits-item__content">
+  <div class="ais-Hits-item__image-wrap">
+    <img class="ais-Hits-item__image" src="{{#helpers.highlight}}{ "attribute": "image_url" }{{/helpers.highlight}}">
+  </div>
   <h1 class="ais-Hits-item__header">{{#helpers.highlight}}{ "attribute": "name" }{{/helpers.highlight}}</h1>
   <p class="ais-Hits-item__description">{{#helpers.highlight}}{ "attribute": "description" }{{/helpers.highlight}}</p>
   <p class="ais-Hits-item__speakers">{{#helpers.highlight}}{ "attribute": "speakers" }{{/helpers.highlight}}</p>
