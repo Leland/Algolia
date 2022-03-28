@@ -148,6 +148,37 @@ a:active {
   }
 }
 
+
+@media (min-width: 768px) {
+  .callout {
+    font-size: 1.1rem;
+    max-width: 768px;
+  }
+}
+
+.callout__item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .callout__item {
+    transform: translateX(-100px);
+  }
+
+  .callout__item:nth-child(even) {
+    transform: translateX(100px);
+  }
+}
+
+.callout__desc {
+  width: 50%;
+}
+
 .search-panel {
   display: flex;
   max-width: 968px;
